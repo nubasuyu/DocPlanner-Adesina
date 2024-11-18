@@ -1,0 +1,582 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 45%, 0.822);
+}
+    
+.navbar {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 75px;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.ourlogo {
+    width: 300px;
+    height: 40px;
+    margin: auto;
+
+}
+
+img {
+    width: 100%;
+}
+
+
+.right {
+    margin: auto;
+}
+
+.right a {
+    color: green;
+    text-decoration: none;
+}
+
+.right a:hover {
+    color: green;
+    cursor: pointer;
+}
+
+/* section 1 */
+
+.whatwedo  {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 10% auto;
+}
+
+
+.whatwedo img {
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+
+.whatwedo p {
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    color: hsla(120, 100%, 25%, 0.947);
+    font-size: xx-large;
+
+}
+
+.explanation {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+full explanation {
+
+    margin: 10px;
+    white-space: normalS;
+    padding: 10px;
+}
+
+
+/* section 2 */
+
+.activities  {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10%;
+    align-items: centerS;
+    justify-content: space-around;
+    margin: auto;
+    gap: 5px;
+}
+
+.patient {
+    width: 30%;
+    height: 300px;
+    margin: 0px 10px;
+    background-color: lightseagreen;
+    color: #fff;
+    text-align: center;
+    border-radius: 5%;
+}
+
+
+.doctor {
+    width: 30%;
+    height: 300px;
+    margin: 0px 10px;
+    background-color: lightseagreen;
+    color: #fff;
+    text-align: center;
+    border-radius: 5%;
+}
+
+.clinic {
+    width: 30%;
+    height: 300px;
+    margin: 0px 10px;
+    background-color: lightseagreen;
+    color: #fff;
+    text-align: center;
+    border-radius: 5%;
+    
+}
+
+#forpatient {
+    font-size: xx-large;
+    text-align: center;
+    margin: 20px auto;
+}
+#patientdiv p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px auto;
+    width: 60%;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+#patientdiv img {
+    width: 50px;
+    height: 50px;
+}
+
+#docdiv p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px auto;
+    width: 60%;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+#docdiv img {
+    width: 50px;
+    height: 50px;
+}
+
+#clinicdiv p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px auto;
+    width: 60%;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+#clinicdiv img {
+    width: 50px;
+    height: 50px;
+}
+
+
+#choose country select {
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    
+}
+
+#select3 {
+    display: block;
+}
+
+/* section 3 */
+
+.globalreach {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: centerS;
+    justify-content: space-between;
+    margin: 20px auto;
+    gap: 5px;}
+
+
+    #ourplace {
+        width: 50%;
+        height: 100%;
+        margin: auto;
+        margin-top: 5%;
+            
+    }
+    
+    #ourplace p {
+        font-family: 'Courier New', Courier, monospace;
+        color: lightseagreen;
+        font-weight: bolder;
+        font-size: 2rem;
+        
+    }
+
+#globallogos {
+    margin-right: 2%;
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px;
+}
+
+#globallogos img {
+    width: 50px;
+    height: 50px;
+
+}
+
+/* section 4 */
+
+.ourpride  {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    gap: 5px;
+    background-color: #00ffff8a;
+
+}
+    
+
+.ourpridetop {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    margin-top: 5%
+    align-items: center;
+
+}  
+
+.ourpridetop p {
+    font-size: 1rem;
+    margin: 10% 10%;
+    
+
+}
+
+.ourpridetop h2 {
+    font-size: 2rem;
+    margin: 5% 10%;
+    color: rgb(77, 255, 0);
+
+}
+
+
+.ourpridetop img {
+    width: 500px;
+    height: 400px;
+    margin: 5% auto;
+    
+}
+
+.ourpridein {
+    margin-right: 2%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    gap: 5px;
+    background-color: aqua;
+
+}
+
+#leader img {
+    width: 30px;
+    height: 40px;
+    margin-top: 5%;
+    
+}
+
+#patients img {
+    width: 30px;
+    height: 40px;
+    margin-top: 5%;
+    
+}
+
+#appointments img {
+    width: 30px;
+    height: 40px;
+    margin-top: 5%;
+    
+}
+
+#doctors img {
+    width: 30px;
+    height: 40px;
+    margin-top: 5%;
+    
+}
+
+
+.one {
+    margin-right: 2%;
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 300px;
+
+
+}
+
+#leader {
+    margin: 20px auto;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+#leader p {
+    font-size: 1rem;
+    margin: 10% 10%;
+
+}
+
+#leader h3 {
+    font-size: 2rem;
+    margin: 5% 10%;
+    color: aqua;
+
+}
+
+
+#patients {
+    margin: 20px auto;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+#patients p {
+    font-size: 1rem;
+    margin: 10% 10%;
+
+}
+
+#patients h3 {
+    font-size: 2rem;
+    margin: 5% 10%;
+    color: aqua;
+
+}
+
+#appointments {
+    margin: 20px auto;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+#appointments p {
+    font-size: 1rem;
+    margin: 10% 10%;
+
+}
+
+#appointments h3 {
+    font-size: 2rem;
+    margin: 5% 10%;
+    color: aqua;
+
+}
+
+
+#doctors {
+    margin: 20px auto;
+    align-items: center;
+    text-align: center;
+    margin: 20px auto;
+    background-color: #fff;
+}
+
+#doctors p {
+    font-size: 1rem;
+    margin: 10% 10%;
+
+}
+
+#doctors h3 {
+    font-size: 2rem;
+    margin: 5% 10%;
+    color: aqua;
+
+}
+
+
+.two {
+    margin-right: 2%;
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 300px;
+
+
+}
+
+/* section 5 */
+
+.slogan {
+    width: 50%;
+    margin: 5% auto;
+    justify-items: center;
+}
+
+.slogan p {
+    font-size: 1rem;
+    
+    text-align: center;
+
+}
+
+.slogan h3 {
+    font-size: 1.5rem;
+    margin: 2% 10%;
+    color: aqua;
+    text-align: center;
+    width: 50%;
+
+}
+
+/* section 6 */
+
+.country {
+    width: 60%;
+    margin-right: 2%;
+    display: grid;
+    grid-template-rows: 400px 400px 400px 400px 400px ;
+    grid-template-columns: 400px 400px;
+    justify-content: space-between;
+    margin: 10px auto;
+    align-items: center;
+    gap: 40px;
+
+
+}
+
+.buttons span {
+    font-size: 1rem;
+    text-align: right;
+    
+}
+
+
+.buttons span b {
+    font-size: 1rem;
+    text-align: right;
+    background-color: rgb(80, 80, 143);
+    color: #fff;
+    
+}
+
+#warsaw img {
+    width: 400px;
+    height: 400px;
+    
+}
+
+#barcelona  img {
+    width: 400px;
+    height: 400px;
+}
+
+#munich img {
+    width: 400px;
+    height: 400px;
+}
+
+#istanbul  img {
+    width: 400px;
+    height: 400px;
+}
+
+#rome img {
+    width: 400px;
+    height: 400px;
+}
+
+#bologna  img {
+    width: 400px;
+    height: 400px;
+}
+
+#curitiba img {
+    width: 400px;
+    height: 400px;
+}
+
+#Janeiro  img {
+    width: 400px;
+    height: 400px;
+}
+
+#Mexico img {
+    width: 400px;
+    height: 400px;
+}
+
+#Mexico {
+    align-items: center;
+}
+
+/* section 7 */
+
+.lastmain {
+    margin: 100px auto;
+    justify-content: center;
+    width: 50%;
+    font-weight: lighter;
+    font-family: sans-serif;
+    
+
+}
+.lastmain h1 {
+    margin: 50px auto;
+    text-align: center;
+
+}
+
+
+.lastmain button {
+    margin: 50px auto;
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;
+    
+
+}
+
+
+/* footer */
+
+.countryled {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    font: lighter;
+    font-size: 14px;
+}
+
+.countryled a {
+    text-decoration: none;
+    }
+
+    .countryled p {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        }
